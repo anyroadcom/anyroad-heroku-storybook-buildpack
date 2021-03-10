@@ -4,4 +4,4 @@ BUILD_DIR=$1
 
 cd $BUILD_DIR
 
-npm run build-storybook -- -s public/storybook -o public/storybook
+npm run build-storybook -- -s public/storybook,frontend -o public/storybook
